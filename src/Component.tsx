@@ -8,7 +8,7 @@ const baseStyle = css({
 export default function Component() {
   return (
     <div className="App">
-      <span css={{ baseStyle }}>hello world</span>
+      <span css={baseStyle}>hello world</span>
     </div>
   );
 }
